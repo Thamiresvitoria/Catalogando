@@ -117,30 +117,27 @@ Responsável pela interação entre o usuário e o sistema.
 ```text
 catalogo-filmes/
 │
-├── src/
-│   └── br/
-│       └── com/
-│           └── catalogofilmes/
-│               │
-│               ├── model/
-│               │   ├── Filme.java
-│               │   ├── Usuario.java
-│               │   └── Avaliacao.java
-│               │
-│               ├── repository/
-│               │   ├── FilmeRepository.java
-│               │   ├── UsuarioRepository.java
-│               │   └── AvaliacaoRepository.java
-│               │
-│               ├── service/
-│               │   ├── FilmeService.java
-│               │   ├── UsuarioService.java
-│               │   └── AvaliacaoService.java
-│               │
-│               ├── controller/
-│               │   └── FilmeController.java
-│               │
-│               └── Main.java
+├── src
+│   │
+│   ├── model/
+│   │   ├── Filme.java
+│   │   ├── Usuario.java
+│   │   └── Avaliacao.java
+│   │
+│   ├── repository/
+│   │   ├── FilmeRepository.java
+│   │   ├── UsuarioRepository.java
+│   │   └── AvaliacaoRepository.java
+│   │
+│   ├── service/
+│   │   ├── FilmeService.java
+│   │   ├── UsuarioService.java
+│   │   └── AvaliacaoService.java
+│   │
+│   ├── controller/
+│   │   └── FilmeController.java
+│   │
+│   └── Main.java
 │
 ├── .gitignore
 └── README.md
